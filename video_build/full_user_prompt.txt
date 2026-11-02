@@ -1,0 +1,142 @@
+<USER_REQUEST>
+Yes. For what you actually want, the prompt needs to tell Antigravity that **the existing prototype/codebase is the source of truth**, while the current test/demo video is only a starting point that must be rebuilt to visually match it.
+
+Use this as the master prompt:
+
+# LUNARA — ENTERPRISE-LEVEL PROTOTYPE VIDEO RECONSTRUCTION & AUTOMATION
+
+## OBJECTIVE
+
+Rebuild and regenerate the existing LUNARA test/demo video so that the final video visually and behaviorally matches the **actual existing LUNARA prototype implementation** as closely as possible.
+
+The current video is NOT the source of truth.
+
+The **existing LUNARA codebase and its implemented UI/UX are the absolute source of truth**.
+
+The final video must look like a polished, production-quality recording of the actual LUNARA prototype being operated by a real user.
+
+Do not merely edit the existing video. If necessary, reconstruct scenes, screenshots, interactions, animations, transitions, overlays, and narration so that the final result accurately represents the prototype.
+
+---
+
+# PHASE 1 — FULL CODEBASE & PROTOTYPE AUDIT
+
+Before modifying or generating the video, perform a comprehensive inspection of the entire existing LUNARA codebase.
+
+Do NOT modify the application during this inspection.
+
+Inspect the complete implementation relevant to the prototype, including but not limited to:
+
+* Flutter application structure
+* Screens
+* Pages
+* Widgets
+* Navigation
+* Buttons
+* Forms
+* Dialogs
+* Cards
+* Tables
+* Maps
+* 3D visualization
+* Status indicators
+* Progress indicators
+* Tooltips
+* Hover states
+* Selected states
+* Active states
+* Borders
+* Shadows
+* Gradients
+* Icons
+* Typography
+* Spacing
+* Padding
+* Margins
+* Corner radii
+* Animations
+* Transitions
+* Loading states
+* Success states
+* Error states
+* Empty states
+* User roles
+* Labels
+* Data fields
+* Workflow sequencing
+
+Also inspect the application's theme/design-system implementation.
+
+Identify the exact:
+
+* Primary colors
+<truncated 9143 bytes>
+w this hierarchy:
+
+### 1. EXISTING LUNARA PROTOTYPE CODE
+
+ABSOLUTE SOURCE OF TRUTH.
+
+### 2. ACTUAL IMPLEMENTED DESIGN SYSTEM / THEME
+
+Use exact values whenever available.
+
+### 3. ACTUAL IMPLEMENTED WORKFLOW
+
+Follow the real navigation and interaction behavior.
+
+### 4. EXISTING TEST/DEMO VIDEO
+
+Use only as a starting point.
+
+If the existing video conflicts with the prototype:
+
+**CHANGE THE VIDEO.**
+
+Do NOT change the prototype merely to make the video easier to reproduce.
+
+---
+
+# IMPORTANT EXECUTION RULE
+
+Do not stop after analyzing the codebase.
+
+Do not only produce a report.
+
+Do not merely tell me what is wrong with the existing video.
+
+Actually implement the required video-generation changes using the existing project and rendering pipeline.
+
+The intended workflow is:
+
+**SCAN CODEBASE**
+→ **UNDERSTAND PROTOTYPE UI/UX**
+→ **EXTRACT DESIGN SYSTEM**
+→ **MAP STEPS 1–15**
+→ **RECONSTRUCT VIDEO**
+→ **AUTOMATE INTERACTIONS**
+→ **AUTOMATE HUMAN-LIKE NARRATION**
+→ **SMOOTH TRANSITIONS**
+→ **VALIDATE AGAINST PROTOTYPE**
+→ **RENDER FINAL VIDEO**
+→ **PERFORM FINAL QA**
+
+The final video must be treated as an **enterprise-level evaluator/judge demonstration**, where visual consistency, workflow accuracy, readability, and professional presentation are critical.
+
+Do not ask for permission for routine implementation decisions.
+
+Proceed autonomously through the workflow.
+
+Only stop and ask for my input if you encounter a **major blocking conflict**, such as:
+
+* the prototype and required workflow fundamentally contradict each other,
+* a required asset is genuinely missing,
+* the existing rendering pipeline cannot technically perform the required operation,
+* or implementing the requested behavior would require changing the actual prototype itself.
+
+For normal implementation choices, make the best engineering decision and continue.
+
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-09T00:17:19+05:30.
+</ADDITIONAL_METADATA>

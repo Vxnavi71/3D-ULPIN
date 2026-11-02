@@ -1,0 +1,531 @@
+<USER_REQUEST>
+Yes. For what you actually want, the prompt needs to tell Antigravity that **the existing prototype/codebase is the source of truth**, while the current test/demo video is only a starting point that must be rebuilt to visually match it.
+
+Use this as the master prompt:
+
+# LUNARA — ENTERPRISE-LEVEL PROTOTYPE VIDEO RECONSTRUCTION & AUTOMATION
+
+## OBJECTIVE
+
+Rebuild and regenerate the existing LUNARA test/demo video so that the final video visually and behaviorally matches the **actual existing LUNARA prototype implementation** as closely as possible.
+
+The current video is NOT the source of truth.
+
+The **existing LUNARA codebase and its implemented UI/UX are the absolute source of truth**.
+
+The final video must look like a polished, production-quality recording of the actual LUNARA prototype being operated by a real user.
+
+Do not merely edit the existing video. If necessary, reconstruct scenes, screenshots, interactions, animations, transitions, overlays, and narration so that the final result accurately represents the prototype.
+
+---
+
+# PHASE 1 — FULL CODEBASE & PROTOTYPE AUDIT
+
+Before modifying or generating the video, perform a comprehensive inspection of the entire existing LUNARA codebase.
+
+Do NOT modify the application during this inspection.
+
+Inspect the complete implementation relevant to the prototype, including but not limited to:
+
+* Flutter application structure
+* Screens
+* Pages
+* Widgets
+* Navigation
+* Buttons
+* Forms
+* Dialogs
+* Cards
+* Tables
+* Maps
+* 3D visualization
+* Status indicators
+* Progress indicators
+* Tooltips
+* Hover states
+* Selected states
+* Active states
+* Borders
+* Shadows
+* Gradients
+* Icons
+* Typography
+* Spacing
+* Padding
+* Margins
+* Corner radii
+* Animations
+* Transitions
+* Loading states
+* Success states
+* Error states
+* Empty states
+* User roles
+* Labels
+* Data fields
+* Workflow sequencing
+
+Also inspect the application's theme/design-system implementation.
+
+Identify the exact:
+
+* Primary colors
+* Secondary colors
+* Background colors
+* Surface colors
+* Panel colors
+* Border colors
+* Text colors
+* Muted text colors
+* Accent colors
+* Success colors
+* Warning colors
+* Error colors
+* Gradients
+* Opacity values
+* Shadows
+* Typography hierarchy
+* Font sizes
+* Font weights
+* Border radii
+* Spacing system
+* Icon treatment
+* Button styling
+* Interaction styling
+
+Do NOT approximate the palette from screenshots if the exact values exist in the source code.
+
+Use the actual implemented values.
+
+---
+
+# PHASE 2 — CREATE A VIDEO DESIGN SPECIFICATION
+
+After inspecting the codebase, internally establish a complete:
+
+**LUNARA VIDEO DESIGN SPECIFICATION**
+
+This specification must define the visual language that the video-generation system must follow.
+
+The video must reproduce the application's:
+
+### Visual Identity
+
+* Exact color palette
+* Exact grading
+* Exact contrast
+* Exact background treatment
+* Exact panel treatment
+* Exact borders
+* Exact typography
+* Exact iconography
+
+### Interaction Language
+
+* Hover behavior
+* Click behavior
+* Selection behavior
+* Active states
+* Loading states
+* Success states
+* Highlight behavior
+* Border behavior
+* Button feedback
+
+### Spatial Language
+
+* Existing screen proportions
+* Existing card placement
+* Existing navigation placement
+* Existing information hierarchy
+* Existing spacing
+* Existing alignment
+
+Do NOT redesign anything.
+
+The objective is:
+
+**VIDEO = VISUAL REPRESENTATION OF THE ACTUAL PROTOTYPE**
+
+not:
+
+**VIDEO = A NEW INTERPRETATION OF THE PROTOTYPE**
+
+---
+
+# PHASE 3 — REBUILD THE TEST/DEMO VIDEO
+
+The existing test/demo video currently does not accurately represent the prototype.
+
+Correct this.
+
+The final video must look as though a real user is operating the actual LUNARA prototype.
+
+Where the existing video differs from the prototype:
+
+**THE PROTOTYPE ALWAYS WINS.**
+
+Replace or reconstruct the incorrect visual elements.
+
+Do not preserve an incorrect visual simply because it already exists in the current video.
+
+The final result must have visual parity with the prototype.
+
+---
+
+# PHASE 4 — AUTOMATE ALL 15 STEPS
+
+The complete workflow from **Step 1 through Step 15** must be automatically generated into one continuous demonstration video.
+
+Do not create disconnected slideshow-like scenes.
+
+The video should communicate one continuous workflow.
+
+The progression must feel like:
+
+**Step 1 → Step 2 → Step 3 → ... → Step 15**
+
+with each step naturally leading into the next.
+
+Every step must demonstrate the correct corresponding prototype UI.
+
+The sequence, interaction, and visual state must accurately represent what the prototype actually does.
+
+---
+
+# PHASE 5 — REALISTIC USER INTERACTION
+
+The video should simulate a real human operating the application.
+
+Use realistic:
+
+* Mouse movement
+* Cursor positioning
+* Click timing
+* Button interaction
+* Screen transitions
+* Form interaction
+* Selection
+* Scrolling where required
+* Waiting for UI state changes
+* Loading behavior
+
+Avoid robotic or artificial cursor movement.
+
+Do not make the cursor teleport between controls unless technically necessary.
+
+Clicks should occur on the actual visible controls.
+
+Important interactions should remain visible long enough for an evaluator to understand them.
+
+---
+
+# PHASE 6 — SMOOTH STEP TRANSITIONS
+
+The transition between all 15 steps must be smooth and professional.
+
+Do NOT make the video feel like:
+
+> screenshot → screenshot → screenshot
+
+Instead, make it feel like one continuous application demonstration.
+
+Transitions should respect the application's actual navigation behavior.
+
+Where the prototype uses an existing transition, reproduce that transition.
+
+Where a transition does not exist, use a subtle professional transition that does NOT visually contradict the application's design.
+
+Do NOT introduce flashy cinematic effects.
+
+Do NOT use unnecessary zooming.
+
+Do NOT use excessive camera movement.
+
+Do NOT use decorative transitions unrelated to the prototype.
+
+The evaluator should feel that the camera is simply following a real user through the application.
+
+---
+
+# PHASE 7 — HUMAN-LIKE VOICEOVER
+
+Automate the narration for all 15 steps.
+
+The voice must sound like a professional human presenter.
+
+Requirements:
+
+* Natural human delivery
+* Clear pronunciation
+* Professional tone
+* Moderate speaking speed
+* Natural pauses
+* Natural emphasis
+* No robotic TTS sound
+* No exaggerated enthusiasm
+* No monotone delivery
+* No unnatural pauses
+* No unnecessary repetition
+
+The narration should explain what is happening in each step without overwhelming the visual demonstration.
+
+The voiceover must remain synchronized with the corresponding UI action.
+
+When the user clicks an important control, the narration should naturally correspond to that action.
+
+---
+
+# PHASE 8 — AUDIO POLICY
+
+Remove all unnecessary background music.
+
+The final video should prioritize:
+
+1. Human-like narration
+2. Important UI interaction sounds only when appropriate
+
+Do NOT add cinematic background music.
+
+Do NOT allow music to compete with the narration.
+
+Do NOT use generic stock-video soundtracks.
+
+The video should feel like a professional technical product demonstration.
+
+---
+
+# PHASE 9 — STEP INFORMATION
+
+For every step from 1 to 15:
+
+1. Display the correct prototype UI.
+2. Perform the correct interaction.
+3. Show the relevant application state.
+4. Explain the action through narration.
+5. Transition naturally to the next step.
+
+Do not invent UI that does not exist in the prototype.
+
+Do not omit important UI states that are actually part of the workflow.
+
+Do not create fake application behavior merely to make the video look impressive.
+
+---
+
+# PHASE 10 — DATA INTEGRITY
+
+Whenever the prototype requires data that is not connected to a real backend during the demo:
+
+Use realistic MOCK data.
+
+Never display:
+
+* undefined
+* null
+* NaN
+* empty technical placeholders
+* broken variables
+* debug values
+* developer-only identifiers
+
+Mock data must look appropriate for a cadastral / 3D ULPIN workflow.
+
+The mock data should be internally consistent throughout the video.
+
+For example, parcel identifiers, property information, coordinates, measurements, validation results, and ULPIN-related information should look like they belong to the same demonstration dataset.
+
+Clearly treat this as demonstration/mock data.
+
+---
+
+# PHASE 11 — ROLE
+
+Use the appropriate prototype role:
+
+**Surveyor / Cadastral Officer**
+
+Ensure the role is consistent wherever it appears in the demonstration.
+
+Do not use unrelated roles.
+
+---
+
+# PHASE 12 — VISUAL QUALITY CONTROL
+
+Before rendering the final video, compare every generated scene against the actual prototype.
+
+Perform a scene-by-scene validation:
+
+### UI
+
+Does the scene look like the actual prototype?
+
+### Colors
+
+Are the exact prototype colors being used?
+
+### Layout
+
+Are elements positioned correctly?
+
+### Typography
+
+Does text match the prototype?
+
+### Borders
+
+Are borders represented correctly?
+
+### Buttons
+
+Do buttons look and behave like the prototype?
+
+### Icons
+
+Are the correct icons used?
+
+### Interaction
+
+Is the correct element being clicked?
+
+### State
+
+Is the correct application state shown?
+
+### Data
+
+Is realistic data displayed?
+
+### Transition
+
+Does the transition feel natural?
+
+### Narration
+
+Does the narration correspond to the visible action?
+
+If any scene does not match the prototype, correct it before final rendering.
+
+---
+
+# PHASE 13 — DO NOT OVER-ENGINEER THE VIDEO PIPELINE
+
+Reuse the existing video-generation infrastructure wherever practical.
+
+Do NOT unnecessarily create an entirely new architecture if the existing rendering system can be corrected.
+
+Preserve the existing project structure.
+
+Modify only what is necessary to achieve prototype-accurate video generation.
+
+Avoid:
+
+* unnecessary dependencies
+* duplicate rendering systems
+* redundant scripts
+* unnecessary documentation
+* unused assets
+* unnecessary abstraction
+* unrelated refactoring
+
+The goal is a reliable automated video-generation pipeline, not a giant framework for making one video.
+
+---
+
+# PHASE 14 — FINAL VIDEO REQUIREMENTS
+
+The final output must be:
+
+* One complete video
+* Steps 1–15 in correct order
+* Prototype-accurate UI
+* Prototype-accurate color palette
+* Prototype-accurate visual grading
+* Prototype-accurate interaction design
+* Smooth transitions
+* Realistic cursor movement
+* Human-like automated narration
+* No background music
+* No "undefined" values
+* No broken UI
+* No debug information
+* No unnecessary visual effects
+* No inconsistent styling
+* No slideshow appearance
+
+The final result should look like a professionally recorded product demonstration of the actual LUNARA prototype.
+
+---
+
+# CRITICAL SOURCE-OF-TRUTH HIERARCHY
+
+When conflicts occur, follow this hierarchy:
+
+### 1. EXISTING LUNARA PROTOTYPE CODE
+
+ABSOLUTE SOURCE OF TRUTH.
+
+### 2. ACTUAL IMPLEMENTED DESIGN SYSTEM / THEME
+
+Use exact values whenever available.
+
+### 3. ACTUAL IMPLEMENTED WORKFLOW
+
+Follow the real navigation and interaction behavior.
+
+### 4. EXISTING TEST/DEMO VIDEO
+
+Use only as a starting point.
+
+If the existing video conflicts with the prototype:
+
+**CHANGE THE VIDEO.**
+
+Do NOT change the prototype merely to make the video easier to reproduce.
+
+---
+
+# IMPORTANT EXECUTION RULE
+
+Do not stop after analyzing the codebase.
+
+Do not only produce a report.
+
+Do not merely tell me what is wrong with the existing video.
+
+Actually implement the required video-generation changes using the existing project and rendering pipeline.
+
+The intended workflow is:
+
+**SCAN CODEBASE**
+→ **UNDERSTAND PROTOTYPE UI/UX**
+→ **EXTRACT DESIGN SYSTEM**
+→ **MAP STEPS 1–15**
+→ **RECONSTRUCT VIDEO**
+→ **AUTOMATE INTERACTIONS**
+→ **AUTOMATE HUMAN-LIKE NARRATION**
+→ **SMOOTH TRANSITIONS**
+→ **VALIDATE AGAINST PROTOTYPE**
+→ **RENDER FINAL VIDEO**
+→ **PERFORM FINAL QA**
+
+The final video must be treated as an **enterprise-level evaluator/judge demonstration**, where visual consistency, workflow accuracy, readability, and professional presentation are critical.
+
+Do not ask for permission for routine implementation decisions.
+
+Proceed autonomously through the workflow.
+
+Only stop and ask for my input if you encounter a **major blocking conflict**, such as:
+
+* the prototype and required workflow fundamentally contradict each other,
+* a required asset is genuinely missing,
+* the existing rendering pipeline cannot technically perform the required operation,
+* or implementing the requested behavior would require changing the actual prototype itself.
+
+For normal implementation choices, make the best engineering decision and continue.
+
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-09T00:17:19+05:30.
+</ADDITIONAL_METADATA>

@@ -1,0 +1,53 @@
+# Databases & data stores
+*.db
+*.sqlite
+*.sqlite3
+backend/data/*.db
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# Dart / Flutter build artifacts
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.widget_preview/
+
+# IDEs & Editor configs
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Environment & Sensitive files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Large media builds / raw files exceeding GitHub limits (>100MB) and test renders
+video_build/lunara_raw_video.mp4
+video_build/test_*.mp4
